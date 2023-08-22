@@ -1,0 +1,52 @@
+* {box-sizing: border-box}
+/* Add padding to containers */
+.container {
+    padding: 30px;
+    width: 60%;
+    position: relative;
+    margin: auto;
+    background: rgb(224, 214, 214);
+    color: whitesmoke;
+    border-radius: 3px;
+    opacity: 90%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    color: rgb(59, 59, 59);
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    color: rgb(82, 81, 81);
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+p{
+    color: white;
+}
+
+span{
+    color: #e92a2a;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    color: aliceblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
